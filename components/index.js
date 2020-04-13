@@ -1,14 +1,15 @@
 class App extends React.Component {
 	render() {
+		let fruit = [ 'x', 'o', 'v' ];
+
 		return (
 			<section>
-				<Hello />
-				<HelloWithProps to="Ringo" from="Paul" />
-				<HelloWithProps to="Sunny" from="Cher" />
-				<NumPicker />
+				<Machine s1={fruit[0]} s2={fruit[0]} s3={fruit[0]} />
+				<Machine s1={fruit[1]} s2={fruit[1]} s3={fruit[0]} />
+				<Machine s1={fruit[0]} s2={fruit[1]} s3={fruit[2]} />
 			</section>
 		);
 	}
 }
 
-ReactDOM.render(<App />, document.getElementById('hello'));
+ReactDOM.render(<App />, document.getElementById('root'));
