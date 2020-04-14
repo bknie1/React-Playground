@@ -1,6 +1,6 @@
 class App extends React.Component {
 	render() {
-		let fruit = [ 'x', 'o', 'v' ];
+		let fruit = [ '🍒', '🍇', '🍍' ];
 
 		return (
 			<section>

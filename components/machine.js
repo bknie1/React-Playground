@@ -7,7 +7,7 @@ class Machine extends React.Component {
 		});
 
 		return (
-			<div>
+			<div className="Machine">
 				<span>
 					{props.s1} {props.s2} {props.s3}
 				</span>
